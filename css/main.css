@@ -84,6 +84,7 @@ li {
       margin-left: 23%; }
       .wrapper .header .navbar .navbar-collapse .search {
         background-image: url(../img/search.png);
+        background-repeat: no-repeat;
         padding: 10px;
         background-color: white;
         border: 0;
