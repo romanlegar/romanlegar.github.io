@@ -212,9 +212,6 @@ li {
     border: 3px solid #ffcf45;
     background-color: #fef5d3;
     padding: 18px 30px 25px 27px; }
-    @media only screen and (max-width: 680px) {
-      .wrapper .section_4 .contentEvents .tableEvent {
-        margin-left: 20%; } }
     .wrapper .section_4 .contentEvents .tableEvent .date {
       border-bottom: 2px solid #ecba44;
       padding-bottom: 20px; }
@@ -225,11 +222,12 @@ li {
             border-radius: 10px;
     background-color: #ffffff; }
     .wrapper .section_5 .contentNews .newsItem img {
-      width: 100%; }
+      width: 345px; }
     .wrapper .section_5 .contentNews .newsItem .sub {
+      width: 360px;
       position: absolute;
       z-index: 2;
-      bottom: 43%;
+      top: 20px;
       left: 0;
       right: 0; }
     .wrapper .section_5 .contentNews .newsItem h3 {
