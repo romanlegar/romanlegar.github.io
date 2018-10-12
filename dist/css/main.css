@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white; }
+
+body {
+  overflow-x: hidden; }
+
+input::-moz-placeholder {
+  color: white; }
+
+input::-webkit-input-placeholder {
+  color: white; }
+
+.wrapper {
+  height: 680px;
+  overflow: hidden;
+  -webkit-box-shadow: 200px 0px 300px 0px #9a4199 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #de5a5a inset, 1400px 0px 300px 0px #eaa031 inset;
+          box-shadow: 200px 0px 300px 0px #9a4199 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #de5a5a inset, 1400px 0px 300px 0px #eaa031 inset;
+  -webkit-transition: -webkit-box-shadow 2s ease-out 0.5s;
+  transition: -webkit-box-shadow 2s ease-out 0.5s;
+  -o-transition: box-shadow 2s ease-out 0.5s;
+  transition: box-shadow 2s ease-out 0.5s;
+  transition: box-shadow 2s ease-out 0.5s, -webkit-box-shadow 2s ease-out 0.5s;
+  background: -webkit-gradient(linear, left top, right top, from(#9a4199), to(#eaa031));
+  background: -webkit-linear-gradient(left, #9a4199 0%, #eaa031 100%);
+  background: -o-linear-gradient(left, #9a4199 0%, #eaa031 100%);
+  background: linear-gradient(to right, #9a4199 0%, #eaa031 100%);
+  -webkit-animation: gradient 4s infinite alternate;
+          animation: gradient 4s infinite alternate; }
+
+@-webkit-keyframes gradient {
+  50% {
+    -webkit-box-shadow: 200px 0px 300px 0px #eaa031 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #dc575c inset, 1400px 0px 300px 0px #9a4199 inset;
+            box-shadow: 200px 0px 300px 0px #eaa031 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #dc575c inset, 1400px 0px 300px 0px #9a4199 inset; } }
+
+@keyframes gradient {
+  50% {
+    -webkit-box-shadow: 200px 0px 300px 0px #eaa031 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #dc575c inset, 1400px 0px 300px 0px #9a4199 inset;
+            box-shadow: 200px 0px 300px 0px #eaa031 inset, 400px 0px 300px 0px #cb4176 inset, 1200px 0px 300px 0px #dc575c inset, 1400px 0px 300px 0px #9a4199 inset; } }
+  @media only screen and (max-width: 1200px) {
+    .wrapper {
+      height: 800px; } }
+  .wrapper .content {
+    padding-left: 75px;
+    position: absolute;
+    z-index: 1000; }
+    @media only screen and (max-width: 1200px) {
+      .wrapper .content {
+        width: 100%;
+        padding-left: 4%; } }
+    .wrapper .content .logo {
+      margin: 40px 0 40px 0;
+      background-image: url(../img/logo.png);
+      width: 200px;
+      height: 55px;
+      background-repeat: no-repeat; }
+    .wrapper .content .caption {
+      font-weight: 900;
+      font-size: 35px;
+      text-transform: uppercase; }
+      .wrapper .content .caption span {
+        font-style: italic; }
+    .wrapper .content .textContent {
+      margin-top: 40px; }
+    .wrapper .content .formContact {
+      padding: 0; }
+      .wrapper .content .formContact .title {
+        font-size: 18px;
+        line-height: 16px;
+        font-family: sans-serif; }
+      .wrapper .content .formContact .input, .wrapper .content .formContact .submit {
+        border: 0; }
+      .wrapper .content .formContact .input {
+        width: 268px;
+        background-color: transparent;
+        border-bottom: 2px solid white;
+        margin-bottom: 15px; }
+      .wrapper .content .formContact .submit {
+        width: 268px;
+        height: 40px;
+        -webkit-border-radius: 25px;
+                border-radius: 25px;
+        background-color: white;
+        color: black;
+        font-weight: 500;
+        text-transform: uppercase;
+        -webkit-transition: background-color 0.1s ease-out 0.1s;
+        -o-transition: background-color 0.1s ease-out 0.1s;
+        transition: background-color 0.1s ease-out 0.1s;
+        cursor: pointer; }
+      .wrapper .content .formContact .submit:hover {
+        background-color: #ffd700; }
+  @media only screen and (max-width: 600px) {
+    .wrapper .contentImg {
+      display: none; } }
+  .wrapper .contentImg .first, .wrapper .contentImg .imgThrones {
+    position: absolute; }
+  .wrapper .contentImg .first {
+    margin-left: 35%;
+    margin-top: -800px;
+    width: 1050px;
+    height: 1450px; }
+  .wrapper .contentImg .imgThrones {
+    top: 75px; }
